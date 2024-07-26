@@ -1,0 +1,58 @@
+/* src/pages/shipping.css */
+
+.shippingContainer {
+  padding: 2vmax;
+  background-color: white;
+}
+
+.shippingBox {
+  max-width: 600px;
+  margin: auto;
+  padding: 2vmax;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.shippingHeading {
+  text-align: center;
+  margin-bottom: 2vmax;
+  color: tomato;
+  font: 400 1.3vmax "Roboto";
+}
+
+.shippingForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.shippingForm div {
+  display: flex;
+  margin: 1vmax 0;
+}
+
+.shippingForm label {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.shippingForm input {
+  padding: 1vmax;
+  flex: 1;
+  border: 1px solid rgba(0, 0, 0, 0.267);
+  border-radius: 4px;
+  outline: none;
+}
+
+.shippingBtn {
+  margin-top: 2vmax;
+  padding: 1vmax;
+  border: none;
+  background-color: tomato;
+  color: white;
+  font: 300 1.3vmax "Roboto";
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.shippingBtn:hover {
+  background-color: rgb(179, 66, 46);
+}
