@@ -1,0 +1,44 @@
+/* src/pages/confirmOrder.css */
+
+.confirmOrderPage {
+  padding: 2vmax;
+  background-color: white;
+}
+
+.confirmShippingArea,
+.confirmCartItems,
+.orderSummary {
+  margin-bottom: 2vmax;
+}
+
+.confirmShippingBox,
+.confirmCartItemsContainer,
+.orderSummary div {
+  display: flex;
+  flex-direction: column;
+  padding: 1vmax;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.confirmShippingBox div,
+.confirmCartItemsContainer div,
+.orderSummary div {
+  display: flex;
+  justify-content: space-between;
+  margin: 1vmax 0;
+}
+
+.orderSummary button {
+  padding: 1vmax;
+  border: none;
+  background-color: tomato;
+  color: white;
+  font: 300 1.3vmax "Roboto";
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.orderSummary button:hover {
+  background-color: rgb(179, 66, 46);
+}

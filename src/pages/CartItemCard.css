@@ -1,0 +1,18 @@
+.CartItemCard {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.simpleCarousel {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.CarouselImage {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 1rem;
+}

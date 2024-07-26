@@ -1,0 +1,14 @@
+/* CartItemCard.css */
+
+.cartItemImage {
+  width: 100px; /* Example width */
+  height: 100px; /* Example height */
+}
+
+.cartItemImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire container */
+  border-radius: 5px; /* Example border radius */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Example box shadow */
+}

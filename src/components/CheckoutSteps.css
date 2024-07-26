@@ -1,0 +1,24 @@
+/* src/components/CheckoutSteps.css */
+
+.checkoutSteps {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.checkoutSteps div {
+  padding: 1rem 2rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.checkoutSteps div.active {
+  background-color: #f76c6c;
+  color: white;
+}
+
+.checkoutSteps div a {
+  text-decoration: none;
+  color: inherit;
+}
